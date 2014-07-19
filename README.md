@@ -1,3 +1,7 @@
+Intro
+-----
+Just a practice ground to practice automation with cucumber.
+
 Setup
 -----
 Install ruby.
@@ -40,3 +44,5 @@ References
 ----------
 * [Cucumber](https://github.com/cucumber/cucumber/wiki)
 * [Capybara](https://github.com/jnicklas/capybara)
+* [WordPress](http://wordpress.org)
+* [XAMPP](https://www.apachefriends.org/download.html)
