@@ -26,6 +26,15 @@ Given /^I should see on screen "(.*)"$/ do |selector|
   page.all('#p', :visible => true)
 end
 
+Given /^I should see "([^"]*)"$/ do |text|
+  expect(page).to have_content(text)
+end
+
+
+Then /^the failing exception should be nice$/ do
+  expect(@error-message).to match %r(expected to find css \"id#.error-message")
+end
+
 ## how to be ensured the value has checked? the system is passing but without verifing the data which is disabled
 #Given /^I should see on screen "(.*)" with "(.*)" $/ do |selector, value|
 #  page.all('#disabled', :with => value)
