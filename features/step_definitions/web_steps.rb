@@ -1,5 +1,6 @@
 require_relative '../../lib/cucumber_helper'
 
+
 Given /^I am on the "(.*)" page$/ do |page|
   visit page
 end
@@ -20,6 +21,12 @@ end
 #  find(:xpath , '//*[@id="user_sign_up_terms"]').click
 #  #find("input[type='checkbox']")
 #end
+
+
+When /^I select (.*) box is checked$/ do |checkbox|
+  check(checkbox)
+end
+
 
 #flaws
 Given /^I should see on screen "(.*)"$/ do |selector|
