@@ -68,3 +68,20 @@ When /^I click on the "([^"]*)" autocomplete option$/ do |link_text|
   # page.evaluate_script %Q{ $('.ui-menu-item a:contains("#{link_text}")').trigger("mouseenter").click(); }
   page.execute_script %Q{ $('//button[@type='button'').trigger.click(); }
 end
+
+
+#Generating new email address everytime I test
+
+# Given /^Generating new email "(.*)" $/ do |email|
+#   fill_in("Email", :with => Time.now.getutc + "email" )
+# end
+
+
+# Given /^I fill in "(.*)" with "(.*)" email $/ do |selector, value|
+# #   fill_in selector, :with => Time.now.getutc
+# # end
+#
+# When /^I check the favorite color count(?: for email address (.*))?$/ do |email|
+#   email ||= "value"
+#   puts 'Time.now.getutc ' + email
+# end

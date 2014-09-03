@@ -2,7 +2,7 @@ require_relative '../../lib/cucumber_helper'
 
 Given /^I am retriving with password "(.*)"$/ do |email|
   visit "/wp-login.php"
-  fill_in "user_login", :with => email
+  fill_in "Username", :with => email + "email"
   click_on "Get New Password"
 end
 
@@ -16,9 +16,3 @@ end
 # end
 
 
-# When /"([\w[\d\w]+)" logs on through the logon page/ do |user_name|
-#   visit(logon_path)
-#   fill_in( "User Name", :with => user_name )
-#   fill_in( "Password", :with => user_name + "-test-passwd" )
-#   click_button( "Logon" )
-# end
