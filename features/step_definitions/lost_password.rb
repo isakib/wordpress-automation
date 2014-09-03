@@ -5,3 +5,4 @@ Given /^I am retriving with password "(.*)"$/ do |email|
   fill_in "user_login", :with => email
   click_on "Get New Password"
 end
+

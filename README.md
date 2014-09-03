@@ -46,3 +46,8 @@ References
 * [Capybara](https://github.com/jnicklas/capybara)
 * [WordPress](http://wordpress.org)
 * [XAMPP](https://www.apachefriends.org/download.html)
+
+
+Follow Me
+-------------
+[@isakib](https://twitter.com/isakib)

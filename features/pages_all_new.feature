@@ -1,27 +1,37 @@
-Feature: Registration
-  As a user,
-  I would want to register to the system with all information.
+Feature: Create a new page
 
-  Scenario: With valid information to complete portal registration
-    Given I am on the "/users/sign_up?locale=en" page
-    And I fill in "Full Name" with "Simon Mark Fisher Ton"
-    And I fill in "Address" with "H#37, R#37, B#84, Block - F"
-    And I fill in "Email" with "sakib21333321w323www3@tasawr.com"
-    And I fill in "user_password" with "123456"
-    And I fill in "user_password_confirmation" with "123456"
-    And I fill in "Mobile" with "+8801670023923"
-    And I click on "Continue" button
-    Then I can see a notification with "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-    And I fill in "token" with "xxxx"
-    And I click on "Continue" button
-    Then I can see a notification with "Invalid Token"
+  Background:
+    Given I am logged in with email "admin" and password "123456"
 
-  Scenario: Blank registration form submission to get validation notification
-    Given I am on the "/users/sign_up?locale=en" page
-    And I click on "Continue" button
-    Then I can see a notification with "Password can't be blank"
-    Then I can see a notification with "Address can't be blank"
-    Then I can see a notification with "Mobile can't be blank"
-    Then I can see a notification with "Full Name can't be blank"
+  Scenario: Valid Inputs and Publish content
+#    Given I am on the "/wp-login.php?" page
+#    And I fill in "user_login" with "admin"
+#    And I fill in "user_pass" with "123456"
+#    And I wait for 2 seconds
+#    And I click on "Log In" button
+    Then I am on the "/wp-admin/post-new.php?post_type=page" page
+#    And I should see "Add New Post" after landing on page
+    And I fill in "title" with "Dummy post at WordPress"
+##    And I fill in "inside" with "Lorem Ipsum is simply dummy text of the printing"
+    Then I click on "Publish"
+    And I should see "Page published. View page" on screen
+    And I click on "View page"
+    And I should see "Dummy post at WordPress" on screen
 
+
+   Scenario: Valid inputs and Save Draft
+#     Given I am on the "/wp-login.php?" page
+#     And I fill in "user_login" with "admin"
+#     And I fill in "user_pass" with "123456"
+#     And I wait for 2 seconds
+#     And I click on "Log In" button
+     Then I am on the "/wp-admin/post-new.php?post_type=page" page
+#    And I should see "Add New Post" after landing on page
+     And I fill in "title" with "Dummy post at WordPress Draft"
+##    And I fill in "inside" with "Lorem Ipsum is simply dummy text of the printing"
+     Then I click on "Save Draft"
+     And I should see "Page draft updated. Preview page" on screen
+     And I click on "Preview page"
+     And I wait for 2 seconds
+     And I should see "Dummy post at WordPress Draft" on screen
 

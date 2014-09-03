@@ -29,6 +29,7 @@ Given /^I should see "([^"]*)" on screen$/ do |text|
   expect(page).to have_content text
 end
 
+
 Then /^the failing exception should be nice$/ do
   expect(@error-message).to match %r(expected to find css \"id#.error-message")
 end
