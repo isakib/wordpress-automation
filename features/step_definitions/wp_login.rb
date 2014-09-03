@@ -9,6 +9,12 @@ Given /^I am logged in with email "(.*)" and password "(.*)"$/ do |email, passwo
 end
 
 #
+# #Generating new email address everytime I test
+# Given /^I am giving different email "(.*)" $/ do |email_new|
+#   fill_in("Email", :with => "Time.now.getutc" + email_new)
+# end
+
+#
 # When /"([\w[\d\w]+)" logs on through the logon page/ do |user_name|
 #   visit(logon_path)
 #   fill_in( "User Name", :with => user_name )
