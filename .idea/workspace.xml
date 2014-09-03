@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cd16915-6147-40e7-9bd1-e11f6317acf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/tools_import.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/tools/tools_available.feature" afterPath="$PROJECT_DIR$/features/lost_password.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/tools/tools_export.feature" afterPath="$PROJECT_DIR$/features/tools_export.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/tools/tools_import.feature" afterPath="$PROJECT_DIR$/features/tools_available.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/all_posts_add_new.feature" afterPath="$PROJECT_DIR$/features/all_posts_add_new.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/all_posts_categories.feature" afterPath="$PROJECT_DIR$/features/all_posts_categories.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cucumber_helper.rb" afterPath="$PROJECT_DIR$/lib/cucumber_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/forget_password.rb" afterPath="$PROJECT_DIR$/features/step_definitions/forget_password.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/sign_in_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/sign_in_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/sign_in_wordpress.feature" afterPath="$PROJECT_DIR$/features/sign_in_wordpress.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wordpress-automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -408,10 +398,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.281296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.281296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
