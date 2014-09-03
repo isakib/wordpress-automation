@@ -17,41 +17,21 @@ Given /^I click on "(.*)" button$/ do |selector|
   click_button selector
 end
 
-#Given /^I select on "(.*)" checkbox$/ do |checkbox|
-#  find(:xpath , '//*[@id="user_sign_up_terms"]').click
-#  #find("input[type='checkbox']")
-#end
-
-
-When /^I select (.*) box is checked$/ do |checkbox|
+Given /^I select (.*) box is checked$/ do |checkbox|
   check(checkbox)
 end
 
-
-#flaws
-Given /^I should see on screen "(.*)"$/ do |selector|
-  page.all('#p', :visible => true)
+Then /^the "([^"]*)" checkbox should be checked$/ do |id|
+  find_field(id)[:value].should eq "forever"
 end
 
-Given /^I should see "([^"]*)"$/ do |text|
-  expect(page).to have_content(text)
+Given /^I should see "([^"]*)" on screen$/ do |text|
+  expect(page).to have_content text
 end
-
 
 Then /^the failing exception should be nice$/ do
   expect(@error-message).to match %r(expected to find css \"id#.error-message")
 end
-
-## how to be ensured the value has checked? the system is passing but without verifing the data which is disabled
-#Given /^I should see on screen "(.*)" with "(.*)" $/ do |selector, value|
-#  page.all('#disabled', :with => value)
-#end
-#
-#Then /^"([^"]*)" should be a disabled option for "([^"]*)"(?: within "([^\"]*)")?$/ do |value, field, selector|
-#  with_scope(selector) do
-#    field_labeled(field).find(:xpath, ".//option[text() = '#{value}'][@disabled]").should be_present
-#  end
-#end
 
 Then /^I select "(.*)" from "(.*)" drop-down list/ do |value, selector|
   select value, :from => selector
@@ -87,6 +67,5 @@ When /^I click on the "([^"]*)" autocomplete option$/ do |link_text|
   # page.evaluate_script %Q{ $('.ui-menu-item a:contains("#{link_text}")').trigger("mouseenter").click(); }
   page.execute_script %Q{ $('//button[@type='button'').trigger.click(); }
 end
-
 
 

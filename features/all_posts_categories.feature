@@ -1,6 +1,5 @@
 Feature: Registration
 As a registered user, I would like to register to system
-                                                         Scenario: With valid information to complete portal registration
 Scenario: With valid email and password
 
   Scenario :

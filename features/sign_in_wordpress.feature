@@ -5,9 +5,12 @@ Feature: As User
   I would like to access with Twitter oAuth Login & Invalid too
 
   Scenario: With valid email and password
-    Given I am on the "/users/sign_in?locale=en" page
-    And I fill in "Email" with "admin"
-    And I fill in "Password" with "123456"
-    And I click on "Sign in" button
-    Then I can see a notification with "Signed in successfully."
-    Then I am on the "/dashboard?locale=en" page
+
+    Given I am on the "/wp-login.php" page
+    And I fill in "user_login" with "admin"
+    And I fill in "user_pass" with "123456"
+#    And I select "Remember Me" box is checked
+    And the "Remember Me" checkbox should be checked
+    And I wait for 5 seconds
+    And I click on "Log In" button
+
