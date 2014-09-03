@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cd16915-6147-40e7-9bd1-e11f6317acf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/wp_login.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/step_definitions/sign_in_steps.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/sign_in_wordpress.feature" afterPath="$PROJECT_DIR$/features/wp_login.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/forget_password.rb" afterPath="$PROJECT_DIR$/features/step_definitions/lost_password.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pages_all_new.feature" afterPath="$PROJECT_DIR$/features/pages_all_new.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/forget_password.feature" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/lost_password.feature" afterPath="$PROJECT_DIR$/features/lost_password.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/lost_password.rb" afterPath="$PROJECT_DIR$/features/step_definitions/lost_password.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/wp_login.rb" afterPath="$PROJECT_DIR$/features/step_definitions/wp_login.rb" />
     </list>
     <ignored path="wordpress-automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,38 +36,8 @@
       <file leaf-file-name="wp_login.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/wp_login.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web_steps.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46846846" vertical-offset="242" max-vertical-offset="1170">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages_all_new.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages_all_new.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="645">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notification_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/notification_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -78,20 +46,30 @@
       <file leaf-file-name="lost_password.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/lost_password.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="495">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="555">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1409650813000" expanded="true" signature="126:556" placeholder="..." />
+                <marker date="1409736752000" expanded="true" signature="126:557" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lost_password.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="web_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1140">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_password.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/lost_password.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27027026" vertical-offset="0" max-vertical-offset="444">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,13 +103,13 @@
         <option value="$PROJECT_DIR$/features/all_posts_categories.feature" />
         <option value="$PROJECT_DIR$/lib/cucumber_helper.rb" />
         <option value="$PROJECT_DIR$/features/all_posts_add_new.feature" />
-        <option value="$PROJECT_DIR$/features/lost_password.feature" />
         <option value="$PROJECT_DIR$/features/tools_import.feature" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/features/step_definitions/lost_password.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/sign_in_steps.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/wp_login.rb" />
         <option value="$PROJECT_DIR$/features/pages_all_new.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/wp_login.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/lost_password.rb" />
+        <option value="$PROJECT_DIR$/features/lost_password.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
       </list>
     </option>
@@ -514,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/forget_password.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/wp_login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
@@ -649,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/forget_password.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -818,32 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/lost_password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/lost_password.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="495">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <marker date="1409650813000" expanded="true" signature="126:556" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/wp_login.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/notification_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -854,16 +792,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages_all_new.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="645">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.6283784" vertical-offset="201" max-vertical-offset="645">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/wp_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/lost_password.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="555">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1409736752000" expanded="true" signature="126:557" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46846846" vertical-offset="242" max-vertical-offset="1170">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1140">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/lost_password.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27027026" vertical-offset="0" max-vertical-offset="444">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>

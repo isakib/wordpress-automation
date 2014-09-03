@@ -9,7 +9,7 @@ Given /^I fill in "(.*)" with "(.*)"$/ do |selector, value|
   fill_in selector, :with => value
 end
 
-Given /^I click on "(.*)"$/ do |selector|
+Given /^I click on "(.*)" link$/ do |selector|
   click_on selector
 end
 
@@ -68,5 +68,3 @@ When /^I click on the "([^"]*)" autocomplete option$/ do |link_text|
   # page.evaluate_script %Q{ $('.ui-menu-item a:contains("#{link_text}")').trigger("mouseenter").click(); }
   page.execute_script %Q{ $('//button[@type='button'').trigger.click(); }
 end
-
-

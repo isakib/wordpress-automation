@@ -8,9 +8,8 @@ Feature: Retrive password from system
     And I click on "Get New Password" button
     And I should see "Check your e-mail for the confirmation link." on screen
 
-##  Notes:
+###  Notes:
 #I will click to change password from email
-
 
   Scenario: Invalid input to retrive password - email address
     Given I am on the "/wp-login.php?action=lostpassword" page
@@ -25,3 +24,8 @@ Feature: Retrive password from system
     And I fill in "user_login" with "saaamia"
     And I click on "Get New Password" button
     And I should see "ERROR: Invalid username or e-mail." on screen
+
+  Scenario: Sumit without giving any inputs - empty
+    Gievn I am on the "/wp-login.php?action=lostpassword" page
+    And I click on "Get new Password" button
+    And I should see "ERROR: Enter a username or e-mail address." on screen
