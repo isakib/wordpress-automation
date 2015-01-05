@@ -12,5 +12,6 @@ Feature: As User
 #    And I select "Remember Me" box is checked
     And the "Remember Me" checkbox should be checked
     And I wait for 5 seconds
+
     And I click on "Log In" button
 
