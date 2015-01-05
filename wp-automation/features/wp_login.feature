@@ -7,8 +7,8 @@ Feature: As User
   Scenario: With valid email and password
 
     Given I am on the "/wp-login.php" page
-    And I fill in "user_login" with "admin"
-    And I fill in "user_pass" with "123456"
+    And I fill in "Username" with "admin"
+    And I fill in "Password" with "123456"
 #    And I select "Remember Me" box is checked
     And the "Remember Me" checkbox should be checked
     And I wait for 5 seconds
